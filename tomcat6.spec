@@ -44,7 +44,7 @@ This package contains the base tomcat installation that depends on Sun's JDK and
 on JPP packages.
 
 %prep
-%setup -q -n apache-tomcat-6.0.37
+%setup -q -n apache-tomcat-%{version}
 
 %build
 
