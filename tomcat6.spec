@@ -108,3 +108,8 @@ fi
 if [ $1 -ge 1 ]; then
   service %{name} condrestart >/dev/null 2>&1
 fi
+
+%changelog
+* Mon Jul 1 2013 Nathan Milford <nathan@milford.io>
+- 6.0.37
+
